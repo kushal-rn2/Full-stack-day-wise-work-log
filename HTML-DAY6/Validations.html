@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Validate Mobile number</title>
+    <script>
+        function ValidateMobile(){
+            var val = document.getElementById("txMobile").value;
+            if(/^[6-9][0-9]{9}$/.test(val)){
+                window.alert('valid Number');
+            }
+            else{
+                window.alert('invalid Number');
+                document.getElementById("txtMobile").focus()
+            }
+        }
+
+    </script>
+</head>
+<body>
+    <input type="text" id="txtMobile"/><br/>
+    <button type="button" onclick="ValidateMobile()">Validate</button>
+</body>
+</html>

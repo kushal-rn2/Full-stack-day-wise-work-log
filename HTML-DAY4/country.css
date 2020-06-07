@@ -1,0 +1,10 @@
+select{
+    width: 50%;
+    margin: 10px,20px,20px,20px;
+    border: 2px double darkblue;
+    font-size: large;
+    background-color: whitesmoke;
+    color: rgb(218, 31, 46);
+    padding-left: 50px;
+    
+}
