@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>sliders</title>
+        <link rel="StyleSheet" href="bootstrap-4.5.0-dist/css/bootstrap.min.css"/>
+        <link rel="stylesheet" href="font-awesome-4.7.0/font-awesome-4.7.0/css/font-awesome.min.css">
+        <script type="text/javascript" src="bootstrap-4.5.0-dist/js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="bootstrap-4.5.0-dist/js/jquery.min.js"></script>
+        <script type="text/javascript" src="bxslider-4-4.2.12/bxslider-4-4.2.12/dist/jquery.bxslider.js"></script>
+        <style type="text/css">
+        .a1{
+      float: center;
+      font-size: xx-large;
+      color: goldenrod;
+      
+      
+  }
+  .a1 a{
+      text-align: center;
+      float: right;
+      display: inline-block;
+      head align:center;
+    
+  }
+        .navbar {
+  width: 100%;
+  background-color: #555;
+  overflow: auto;
+}
+
+
+.navbar a {
+  float: left;
+  text-align: center;
+  padding: 12px;
+  color: white;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+
+.navbar a:hover {
+  background-color: #000;
+}
+
+
+.active {
+  background-color: yellowgreen;
+}
+
+
+@media screen and (max-width: 500px) {
+  .navbar a {
+    float: none;
+    display: block;
+  }
+  
+  
+}    
+        </style>
+        <script type="text/javascript">
+
+        $(document).ready(function(){
+            $(".slider").bxSlider({
+                auto: true,
+                pager:true,
+                autocontrols: true,
+                slidewidth:600,
+                
+                
+            });
+        });
+        </script>
+    </head>
+    <body>
+        <A class="a1" HREF="www.yoursite.com/yourpage.html">
+            <IMG SRC="banner2.jpg" BORDER="0" WIDTH="200" HEIGHT="200">
+                <head>    CHENNAI SUPER KINGS FP</head>
+                
+
+
+                <div style="float: right;">
+                <IMG SRC="banner2.jpg" BORDER="0" WIDTH="200" HEIGHT="200">
+                </div>
+            </A>
+            <div class="navbar">
+                <a class="active" href="#"><i class="fa fa-fw fa-home"></i> Home</a>
+                <a href="#"><i class="fa fa-fw fa-search"></i> FollowUs</a>
+                <a href="#"><i class="fa fa-fw fa-envelope"></i> ContactUs</a>
+                <a href="#"><i class="fa fa-fw fa-user"></i> Login</a>
+              </div>
+        
+        <div class="slider">
+            <div><img src="12.jpg" title="THALA" /></div>
+            <div><img src="13.jpg" title="MSD" /></div>
+            <div><img src="14.jpg" title="GOD OF CRICKET" /></div>
+
+        </div>
+    </body>
+</html>
